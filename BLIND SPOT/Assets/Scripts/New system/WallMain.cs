@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class WallMain : MonoBehaviour
 {
-    [SerializeField] Image imageComponent;
+    [SerializeField] SpriteRenderer imageComponent;
     [SerializeField] State startingState;
 
     State state;
