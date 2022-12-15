@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a2ce82e77934a4479353562e63bdb93, type: 3}
   m_Name: Patio
   m_EditorClassIdentifier: 
-  storyImage: {fileID: 0}
+  storyImage: {fileID: 21300000, guid: ed29606ffa2e2344f90d6cd1ce1cbf67, type: 3}
   nextStates: []

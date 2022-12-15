@@ -16,4 +16,5 @@ MonoBehaviour:
   nextStates:
   - {fileID: 0}
   - {fileID: 11400000, guid: 4b7d4379875618244bd61474c4754ca5, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 08a0ccbf0a9e8fa4c84255c8d90e36d4, type: 2}
+  - {fileID: 11400000, guid: 29c5baf603b4887498d3eae220de2568, type: 2}

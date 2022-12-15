@@ -4,12 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class WallMain : MonoBehaviour
 {
-    [SerializeField] Image imageComponent;
+    [SerializeField] SpriteRenderer imageComponent;
     [SerializeField] State startingState;
 
-    State state;
+    public static State state;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +41,7 @@ public class WallMain : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Space))
         {
+            //Input.GetKeyDown(KeyCode.Space)
             state = nextStates[2];
         }
         else if (Input.GetKeyDown(KeyCode.Return))
