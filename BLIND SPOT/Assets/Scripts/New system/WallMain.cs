@@ -10,7 +10,7 @@ public class WallMain : MonoBehaviour
     [SerializeField] SpriteRenderer imageComponent;
     [SerializeField] State startingState;
 
-    public static State state;
+     State state;
     
 
     // Start is called before the first frame update
@@ -25,12 +25,15 @@ public class WallMain : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ManageState();
+       // ManageState();
     }
 
-    private void ManageState()
+    public void ManageState(int i)
     {
         var nextStates = state.GetNextStates();
+        state = nextStates[i];
+
+        /*
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
             state = nextStates[0];
@@ -51,7 +54,9 @@ public class WallMain : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Escape)) 
         { 
             state = nextStates[4];
-        }
+        } */
         imageComponent.sprite = state.GetStateRoom();
+        
     }
+
 }

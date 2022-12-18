@@ -7,7 +7,7 @@ using System.Drawing;
 public class State : ScriptableObject
 {
     [SerializeField] Sprite storyImage;
-    [SerializeField] public static State[] nextStates;
+    [SerializeField] State[] nextStates;
 
     public Sprite GetStateRoom()
     {
