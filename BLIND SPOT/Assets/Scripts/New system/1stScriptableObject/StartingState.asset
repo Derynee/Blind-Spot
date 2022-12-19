@@ -17,3 +17,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: afe1314b1d0afa34db32e465e69af8c5, type: 2}
   - {fileID: 11400000, guid: 09085ba5939b92f469f6dfb9f5953571, type: 2}
   - {fileID: 11400000, guid: 3f20f751dd8e2fe4dbc456c98b644821, type: 2}
+  Habitacion: Sotano
+  Vista: 1
