@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a2ce82e77934a4479353562e63bdb93, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyImage: {fileID: 21300000, guid: 97e4329e4790a584fba8cddfb0050b43, type: 3}
+  storyImage: {fileID: 21300000, guid: c353b2dfbb143ec48932aa2c57df2fff, type: 3}
   nextStates:
   - {fileID: 11400000, guid: afe1314b1d0afa34db32e465e69af8c5, type: 2}
   - {fileID: 11400000, guid: 09085ba5939b92f469f6dfb9f5953571, type: 2}
   - {fileID: 11400000, guid: 3f20f751dd8e2fe4dbc456c98b644821, type: 2}
+  Habitacion: Sotano
+  Vista: 1

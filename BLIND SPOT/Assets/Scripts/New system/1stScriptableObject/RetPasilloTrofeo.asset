@@ -19,3 +19,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 81caea1f268354d41851796d1d01d792, type: 2}
   - {fileID: 11400000, guid: 011a2de6b0f4cd347bed8aba91e9387f, type: 2}
   - {fileID: 11400000, guid: 08a0ccbf0a9e8fa4c84255c8d90e36d4, type: 2}
+  Habitacion: PasilloTrof
+  Vista: 2
