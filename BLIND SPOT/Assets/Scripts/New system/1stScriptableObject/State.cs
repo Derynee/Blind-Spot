@@ -8,8 +8,6 @@ public class State : ScriptableObject
 {
     [SerializeField] Sprite storyImage;
     [SerializeField] State[] nextStates;
-    [SerializeField] string Habitacion;
-    [SerializeField] int Vista;
 
     public Sprite GetStateRoom()
     {
@@ -21,16 +19,4 @@ public class State : ScriptableObject
     {
         return nextStates;
     }
-
-    public string GetHabitacion()
-    {
-        return Habitacion;
-    }
-
-    public int GetVista()
-    {
-        return Vista;
-    }
-
-
 }

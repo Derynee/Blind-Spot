@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a2ce82e77934a4479353562e63bdb93, type: 3}
   m_Name: SotanoBack
   m_EditorClassIdentifier: 
-  storyImage: {fileID: 21300000, guid: 014d0984b4b347d47be5fb7feeac4cc0, type: 3}
+  storyImage: {fileID: 21300000, guid: ea9a7567278b031408dbb8252742d34a, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 09085ba5939b92f469f6dfb9f5953571, type: 2}
   - {fileID: 11400000, guid: afe1314b1d0afa34db32e465e69af8c5, type: 2}
-  - {fileID: 11400000, guid: b943cde41cf57954ab40bc50618d7422, type: 2}
-  - {fileID: 11400000, guid: fc2e60017b72c8c42aa04df2373f7585, type: 2}
-  Habitacion: Sotano
-  Vista: 4
+  - {fileID: 0}

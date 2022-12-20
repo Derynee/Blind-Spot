@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a2ce82e77934a4479353562e63bdb93, type: 3}
   m_Name: SotanoIzq
   m_EditorClassIdentifier: 
-  storyImage: {fileID: 21300000, guid: 5c7841195940f9248bee663e06108ec0, type: 3}
+  storyImage: {fileID: 21300000, guid: d06f80f41fae27847993ee8644942302, type: 3}
   nextStates:
   - {fileID: 11400000, guid: 81caea1f268354d41851796d1d01d792, type: 2}
   - {fileID: 11400000, guid: 9839aa792d5dfe94bab84e50be27bb41, type: 2}
-  Habitacion: Sotano
-  Vista: 2

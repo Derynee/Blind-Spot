@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1336
+    x: 1039
     y: 0
-    width: 184
+    width: 434
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -80,7 +80,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 32
+  controlID: 17
 --- !u!114 &4
 =======
     width: 1536
@@ -108,10 +108,10 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     x: 1520
     y: 0
-    width: 400
+    width: 447
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
 =======
     x: 1008
@@ -146,8 +146,8 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     width: 374
     height: 561
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
 =======
     width: 241.6
@@ -178,7 +178,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< Updated upstream
     y: 561
-    width: 1520
+    width: 1473
     height: 386
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 115
+  controlID: 8875
 --- !u!114 &11
 =======
     width: 1008
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 116
+  controlID: 8876
 --- !u!114 &12
 =======
     width: 1008
@@ -362,7 +362,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     x: 374
     y: 0
-    width: 962
+    width: 674
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -403,7 +403,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< Updated upstream
     y: 634
-    width: 1519
+    width: 1472
     height: 365
 =======
     y: 528.8
@@ -432,11 +432,13 @@ MonoBehaviour:
 =======
     - Assets
 >>>>>>> Stashed changes
+    - Assets/Resources/Sprites
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+  - Assets/Resources/Sprites
 <<<<<<< Updated upstream
   - Assets/Scripts
 =======
@@ -460,18 +462,18 @@ MonoBehaviour:
 >>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Movimiento
+      m_OriginalName: Movimiento
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 24910
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
 <<<<<<< Updated upstream
       m_ClientGUIView: {fileID: 6}
@@ -581,7 +583,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     x: 1520
     y: 73
-    width: 399
+    width: 446
     height: 926
 =======
     x: 1008
@@ -600,7 +602,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 197
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -629,7 +631,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< Updated upstream
     y: 73
-    width: 373
+    width: 364
     height: 540
 =======
     y: 73.6
@@ -702,7 +704,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     x: 374
     y: 73
-    width: 960
+    width: 672
     height: 540
 =======
     x: 241.6
@@ -972,7 +974,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -990,7 +992,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.000000007450581, y: 0.000000014901161, z: -9.313226e-10, w: -1}
   m_Size:
 <<<<<<< Updated upstream
     m_Target: 18.473797
@@ -1018,7 +1020,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.07743081, y: 0.14217429, z: -0.011156667, w: -0.98675823}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1048,7 +1050,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     x: 1336
     y: 73
-    width: 182
+    width: 432
     height: 540
 =======
     x: 290.4
@@ -1133,7 +1135,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
       x: -91
       y: -259.5
-      width: 182
+      width: 432
       height: 519
     m_MinimalGUI: 1
   m_defaultScale: 1
@@ -1175,7 +1177,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< Updated upstream
     y: 634
-    width: 1520
+    width: 1472
     height: 365
 =======
     y: 528.8
