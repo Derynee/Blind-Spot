@@ -16,5 +16,7 @@ MonoBehaviour:
   nextStates:
   - {fileID: 11400000, guid: 2388bb488d3b8c747b5788db4a2a4aa1, type: 2}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 72510616935d8a14098690e5081430d4, type: 2}
   - {fileID: 11400000, guid: 08a0ccbf0a9e8fa4c84255c8d90e36d4, type: 2}
+  Habitacion: Estudio
+  Vista: 1
