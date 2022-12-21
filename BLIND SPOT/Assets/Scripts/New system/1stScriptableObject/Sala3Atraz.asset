@@ -16,6 +16,7 @@ MonoBehaviour:
   nextStates:
   - {fileID: 11400000, guid: 2770a947c1be0fa499268bce1bc3920c, type: 2}
   - {fileID: 11400000, guid: 2ca94d33192ef0241b271a779d0d988b, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b943cde41cf57954ab40bc50618d7422, type: 2}
+  - {fileID: 11400000, guid: fc2e60017b72c8c42aa04df2373f7585, type: 2}
   Habitacion: Sala
   Vista: 3
