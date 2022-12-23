@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a2ce82e77934a4479353562e63bdb93, type: 3}
-  m_Name: StartingState
+  m_Name: Recamara
   m_EditorClassIdentifier: 
-  storyImage: {fileID: 21300000, guid: 0ce890396fe21aa46b4078ade68fc6b1, type: 3}
+  storyImage: {fileID: 21300000, guid: dfd2e3e235f4c734ab6983417417321e, type: 3}
   nextStates:
-  - {fileID: 11400000, guid: afe1314b1d0afa34db32e465e69af8c5, type: 2}
-  - {fileID: 11400000, guid: 09085ba5939b92f469f6dfb9f5953571, type: 2}
-  - {fileID: 11400000, guid: 3f20f751dd8e2fe4dbc456c98b644821, type: 2}
-  Habitacion: Sotano
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 78f4496ffd7c24b4e8678d21c7617d6a, type: 2}
+  Habitacion: Recamara
   Vista: 1

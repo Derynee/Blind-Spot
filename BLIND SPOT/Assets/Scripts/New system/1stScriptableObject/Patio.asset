@@ -13,4 +13,11 @@ MonoBehaviour:
   m_Name: Patio
   m_EditorClassIdentifier: 
   storyImage: {fileID: 21300000, guid: ed29606ffa2e2344f90d6cd1ce1cbf67, type: 3}
-  nextStates: []
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 2388bb488d3b8c747b5788db4a2a4aa1, type: 2}
+  Habitacion: Patio
+  Vista: 1

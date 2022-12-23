@@ -10,29 +10,30 @@ public class WallMain : MonoBehaviour
     [SerializeField] SpriteRenderer imageComponent;
     [SerializeField] State startingState;
 
-     State state;
-    
+    public State state;
+
+    public List<GameObject> Colliders = new List<GameObject>();
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
 
         state = startingState;
         imageComponent.sprite = state.GetStateRoom();
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       // ManageState();
+        // ManageState();
     }
 
     public void ManageState(int i)
     {
         var nextStates = state.GetNextStates();
         state = nextStates[i];
-
+ 
         /*
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
@@ -56,7 +57,28 @@ public class WallMain : MonoBehaviour
             state = nextStates[4];
         } */
         imageComponent.sprite = state.GetStateRoom();
-        
+
     }
 
+    public void ColliderState(int j)
+    {
+        ChangeColliders(j);
+    }
+
+    public State ReturnCurrentState()
+    {
+        return state;
+    }
+
+    void ChangeColliders(int a)
+    {
+        foreach (GameObject collider in Colliders) 
+        {
+            collider.SetActive(false);
+        }
+       
+        Colliders[a].gameObject.SetActive(true);
+
+    }
+   
 }
