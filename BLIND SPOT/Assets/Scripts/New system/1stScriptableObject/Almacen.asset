@@ -19,3 +19,5 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 11400000, guid: 08a0ccbf0a9e8fa4c84255c8d90e36d4, type: 2}
+  Habitacion: Almacen
+  Vista: 1

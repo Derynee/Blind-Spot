@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &14071258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 14071259}
+  m_Layer: 0
+  m_Name: ScriptsEmpty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14071259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14071258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.7284036, y: 1.0985456, z: -0.08697245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &105338793
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,6 +239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 106142459}
+  - component: {fileID: 106142460}
   m_Layer: 0
   m_Name: PasilloAlmacenRaiz
   m_TagString: Untagged
@@ -231,6 +263,22 @@ Transform:
   m_Father: {fileID: 856615594}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &106142460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106142458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 824385629}
+  Habitacion: PasilloAlmacen
+  Vista: 1
+  ReferenciaWallMain: {fileID: 2087529035}
 --- !u!1 &156697797
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,7 +625,7 @@ GameObject:
   - component: {fileID: 422228517}
   - component: {fileID: 422228516}
   m_Layer: 0
-  m_Name: ColiderPuertaEspacioPasilloAlmacen
+  m_Name: ColiderFlechaEspacioPasilloAlmacen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -650,7 +698,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 215b77962e2924f43933cdc83ef4ebdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd02d8a02a45ffe4bba92677dda7f454, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -658,7 +706,7 @@ SpriteRenderer:
   m_Size: {x: 2.52, y: 2.76}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!65 &422228519
@@ -934,6 +982,37 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
+--- !u!1 &563432174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 563432175}
+  m_Layer: 0
+  m_Name: NoCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &563432175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563432174}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 856615594}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &576489492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,7 +1420,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 215b77962e2924f43933cdc83ef4ebdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd02d8a02a45ffe4bba92677dda7f454, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1349,7 +1428,7 @@ SpriteRenderer:
   m_Size: {x: 2.52, y: 2.76}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!65 &657618087
@@ -1389,6 +1468,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 661417322}
+  - component: {fileID: 661417325}
+  - component: {fileID: 661417324}
+  - component: {fileID: 661417323}
   m_Layer: 0
   m_Name: SalaRaiz
   m_TagString: Untagged
@@ -1410,9 +1492,58 @@ Transform:
   m_Children:
   - {fileID: 1609990193}
   - {fileID: 1035875855}
+  - {fileID: 1348931866}
   m_Father: {fileID: 856615594}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &661417323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661417321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 1348931865}
+  Habitacion: Sala
+  Vista: 4
+  ReferenciaWallMain: {fileID: 2087529035}
+--- !u!114 &661417324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661417321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 1035875854}
+  Habitacion: Sala
+  Vista: 3
+  ReferenciaWallMain: {fileID: 2087529035}
+--- !u!114 &661417325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661417321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 1609990192}
+  Habitacion: Sala
+  Vista: 2
+  ReferenciaWallMain: {fileID: 2087529035}
 --- !u!1 &674721589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,7 +1602,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f1cf278aede8ffc44a6b4a1e128fe240, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b10902cf017561640a7ec672810a79ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1490,8 +1621,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674721589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2517, y: -0.0134, z: 0}
-  m_LocalScale: {x: 2.6843824, y: 2.6985874, z: 1}
+  m_LocalPosition: {x: 0.1534, y: 0.1506, z: 0}
+  m_LocalScale: {x: 2.844806, y: 2.8381515, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1599,7 +1730,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 215b77962e2924f43933cdc83ef4ebdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd02d8a02a45ffe4bba92677dda7f454, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1607,7 +1738,7 @@ SpriteRenderer:
   m_Size: {x: 2.52, y: 2.76}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &706423464
@@ -2009,7 +2140,7 @@ Transform:
   - {fileID: 1554804188}
   - {fileID: 1044573305}
   - {fileID: 661417322}
-  - {fileID: 1348931866}
+  - {fileID: 563432175}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2221,6 +2352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1044573305}
+  - component: {fileID: 1044573306}
   m_Layer: 0
   m_Name: PasilloRecamaraRaiz
   m_TagString: Untagged
@@ -2244,6 +2376,22 @@ Transform:
   m_Father: {fileID: 856615594}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1044573306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044573304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 1168847640}
+  Habitacion: PasilloRecamara
+  Vista: 1
+  ReferenciaWallMain: {fileID: 2087529035}
 --- !u!1 &1093169394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,6 +2865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1147249142}
+  - component: {fileID: 1147249143}
   m_Layer: 0
   m_Name: SotanoRaiz
   m_TagString: Untagged
@@ -2740,6 +2889,22 @@ Transform:
   m_Father: {fileID: 856615594}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1147249143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147249141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 1571760706}
+  Habitacion: Sotano
+  Vista: 1
+  ReferenciaWallMain: {fileID: 2087529035}
 --- !u!1 &1168847640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,8 +3112,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 576489497}
-  m_Father: {fileID: 856615594}
-  m_RootOrder: 6
+  m_Father: {fileID: 661417322}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1506180683
 GameObject:
@@ -2959,6 +3124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1506180684}
+  - component: {fileID: 1506180685}
   m_Layer: 0
   m_Name: PasilloTrofeosRaiz
   m_TagString: Untagged
@@ -2982,6 +3148,22 @@ Transform:
   m_Father: {fileID: 856615594}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1506180685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506180683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 857376735}
+  Habitacion: PasilloTrofeos
+  Vista: 1
+  ReferenciaWallMain: {fileID: 2087529035}
 --- !u!1 &1526587096
 GameObject:
   m_ObjectHideFlags: 0
@@ -3103,6 +3285,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1554804188}
+  - component: {fileID: 1554804190}
+  - component: {fileID: 1554804189}
   m_Layer: 0
   m_Name: EstudioRaiz
   m_TagString: Untagged
@@ -3127,6 +3311,38 @@ Transform:
   m_Father: {fileID: 856615594}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1554804189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554804187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 652482011}
+  Habitacion: Estudio
+  Vista: 2
+  ReferenciaWallMain: {fileID: 2087529035}
+--- !u!114 &1554804190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554804187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6672c97fb48734d95ac3210e8139d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeGameObject: {fileID: 304519207}
+  Habitacion: Estudio
+  Vista: 1
+  ReferenciaWallMain: {fileID: 2087529035}
 --- !u!1 &1571760706
 GameObject:
   m_ObjectHideFlags: 0
@@ -3136,14 +3352,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1571760707}
-  - component: {fileID: 1571760708}
   m_Layer: 0
   m_Name: SotanoVista1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1571760707
 Transform:
   m_ObjectHideFlags: 0
@@ -3161,20 +3376,6 @@ Transform:
   m_Father: {fileID: 1147249142}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1571760708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571760706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ee42e25bf5342498336c89f5090cde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Habitacion: Sotano
-  Vista: 1
 --- !u!1 &1577684117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3702,7 +3903,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 215b77962e2924f43933cdc83ef4ebdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd02d8a02a45ffe4bba92677dda7f454, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3710,7 +3911,7 @@ SpriteRenderer:
   m_Size: {x: 2.52, y: 2.76}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1851905558
@@ -3977,6 +4178,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageComponent: {fileID: 674721590}
   startingState: {fileID: 11400000, guid: 81caea1f268354d41851796d1d01d792, type: 2}
+  state: {fileID: 0}
+  Colliders:
+  - {fileID: 1571760706}
+  - {fileID: 857376735}
+  - {fileID: 824385629}
+  - {fileID: 304519207}
+  - {fileID: 652482011}
+  - {fileID: 1168847640}
+  - {fileID: 1609990192}
+  - {fileID: 1035875854}
+  - {fileID: 1348931865}
+  - {fileID: 563432174}
 --- !u!4 &2087529036
 Transform:
   m_ObjectHideFlags: 0
@@ -3984,9 +4197,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087529034}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000000029802322}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4135,6 +4348,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageComponent: {fileID: 674721590}
   startingState: {fileID: 11400000, guid: 81caea1f268354d41851796d1d01d792, type: 2}
+  state: {fileID: 0}
+  Colliders: []
 --- !u!4 &2138027408
 Transform:
   m_ObjectHideFlags: 0
